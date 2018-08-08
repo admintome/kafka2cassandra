@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kafka2cassandra
+spec:
+  containers:
+    - name: kafka2cassandra
+      image: admintome/kafka2cassandra
+      stdin: true
+      tty: true
